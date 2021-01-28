@@ -36,7 +36,7 @@ The inversion was set up as a linearized solution of a nonlinear inverse problem
 
 The gradient of the data misfit was calculated according to equation 2.
 
-<img src="https://render.githubusercontent.com/render/math?math= \frac{\delta}{\delta} \= {\phi_d} %2B {\beta} {\phi_m} =\parallel W_d (F[h] - d_{obs}) \parallel^2_2 %2B \parallel W_m h \parallel^2_2">    [2]
+<img src="https://render.githubusercontent.com/render/math?math= \delta/\delta= {\phi_d} %2B {\beta} {\phi_m} =\parallel W_d (F[h] - d_{obs}) \parallel^2_2 %2B \parallel W_m h \parallel^2_2">    [2]
 
 
 
