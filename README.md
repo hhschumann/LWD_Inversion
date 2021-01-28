@@ -75,7 +75,7 @@ Formulations
 The inversion was set up as a linearized solution of a nonlinear inverse problem using Tikhonov
 regularization. The formulation of the inverse problem is shown in equation 1.
 
-*min*$\theta$
+*min* $\theta$
 
 
 
