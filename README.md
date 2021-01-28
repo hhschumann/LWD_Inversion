@@ -4,7 +4,7 @@ This project aims to use gamma ray loging while drilling (LWD) measurements to i
 
 ## Introduction
 
-*Motivation*
+***Motivation***
 
 Unconventional wells have become a major part of US oil production over the past
 decade and a constant struggle for petroleum companies is finding ways to minimize the
