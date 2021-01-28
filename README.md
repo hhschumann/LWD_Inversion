@@ -38,7 +38,17 @@ The gradient of the data misfit was calculated according to equation 2.
 
 ![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/eq_2.png)
 
+The gradient of the smallest and flattest model objective function was calculated using equation 3.
 
+![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/eq_3.png)
+
+The gradient of the total objective function was calculated using equation 4.
+
+![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/eq_4.png)
+
+The system of linear equations shown with equations 5 and 6 was used to solve for the model perturbation Δh.
+
+![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/eq_5_6.png)
 
 
 
