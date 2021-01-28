@@ -36,4 +36,4 @@ When setting up this test, a number of assumptions were made to simplify the inv
 process. The assumptions simplify the geological considerations and put a limit on the extent to
 which our inversion algorithm can perform.
 
-![Image](http://url/a.png)
+![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/diagram.png)
