@@ -32,7 +32,7 @@ Firstly, when defining our examples we assumed there were no faults. This first 
 
 The inversion was set up as a linearized solution of a nonlinear inverse problem using Tikhonov regularization. The formulation of the inverse problem is shown in equation 1.
 
-<img src="https://render.githubusercontent.com/render/math?math=min \phi = \phi_d \+ \beta \phi_m =\parallel W_d (F[h] - d_o_b_s) \parallel^2_2 ">
+<img src="https://render.githubusercontent.com/render/math?math=min \phi = \phi_d {+} \beta \phi_m =\parallel W_d (F[h] - d_o_b_s) \parallel^2_2 ">
 
 
 
