@@ -75,7 +75,7 @@ Formulations
 The inversion was set up as a linearized solution of a nonlinear inverse problem using Tikhonov
 regularization. The formulation of the inverse problem is shown in equation 1.
 
-<img src="https://render.githubusercontent.com/render/math?math=theta= -1">
+<img src="https://render.githubusercontent.com/render/math?math=\theta= -1">
 
 
 
