@@ -10,7 +10,7 @@ class GR_Inversion():
     
     def set_pilot_log_vals(self,pilot_gr,pilot_tvd,res_top):
         self.pilot_gr = pilot_gr
-        self.pilot_tvd = pilot_tvd-res_top
+        self.pilot_tvd = pilot_tvd - res_top
         
     def find_nearest_val(self,value):
         idx = (np.abs(self.pilot_tvd - value)).argmin()
@@ -25,7 +25,7 @@ class GR_Inversion():
 
     # returns the jacobian matrix 
     def get_jacobian(self,init_mod_tvd,hwell_tvd,dz):
-        self.z = init_mod_tvd - hwell_tvd
+        self.z = hwell_tvd - init_mod_tvd
         self.N = self.M = len(hwell_tvd)
         self.gzsum = self.get_GR_response(self.z)
         self.J=np.zeros((self.N,self.M))
