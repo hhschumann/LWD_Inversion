@@ -1,5 +1,9 @@
 # LWD Inversion
 
+This project aims to use gamma ray loggin while drilling (LWD) measurements to invert for the relative position of a geologic interval relative to the borehole. 
+
+## Introduction
+
 Unconventional wells have become a major part of US oil production over the past
 decade and a constant struggle for petroleum companies is finding ways to minimize the
 expenses of this drilling. In order to maximize the contact between the wellbore and the reservoir
@@ -37,3 +41,24 @@ process. The assumptions simplify the geological considerations and put a limit 
 which our inversion algorithm can perform.
 
 ![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/diagram.png)
+
+Firstly, when defining our examples we assumed there were no faults. This first
+assumption allows us to simplify the inversion by not having to account for sharp changes in the
+model’s geometry or its respective gamma response. Secondly, we assume that the interval,
+who’s top we are inverting for, maintains a constant thickness across the model space. In doing
+this, we make it so that we only have to minimize one distance, the distance from the wellbore to
+the top of the reservoir, as opposed to having to invert for the distance to the bottom of the
+reservoir as well. The third assumption for our examples is that the vertical pilot well gamma ray
+response of the target interval is representative of the whole interval. This is the main assumption
+that allows us to use the gamma response of the directional well through the model to locate the
+position of the wellbore in the subsurface interval. All of these assumptions can be visualized in
+Figure 1. In Figure 1 the pilot well, type gamma log, is propagated across the model, and at any
+given distance from the interval top the gamma response within the interval is constant. This
+represents the third assumption. Also in Figure 1, the assumptions of constant thickness and lack
+of faulting can be visualized. The last two assumptions we make have to do with the provided
+data. For this inversion to be applicable to real world cases, we have to assume that both the
+gamma response of the pilot well and the directional survey data are accurate.
+
+
+
+
