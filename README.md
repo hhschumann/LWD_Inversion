@@ -32,7 +32,7 @@ Firstly, when defining our examples we assumed there were no faults. This first 
 
 The inversion was set up as a linearized solution of a nonlinear inverse problem using Tikhonov regularization. The formulation of the inverse problem is shown in equation 1.
 
-![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/eq_1.png&s=10)
+![Image](https://github.com/hhschumann/LWD_inversion/blob/main/Figures/eq_1.png)
 
 The gradient of the data misfit was calculated according to equation 2.
 
